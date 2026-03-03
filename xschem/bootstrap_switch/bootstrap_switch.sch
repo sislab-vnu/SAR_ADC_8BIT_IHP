@@ -1,4 +1,5 @@
-v {xschem version=3.4.6 file_version=1.2}
+v {xschem version=3.4.5 file_version=1.2
+}
 G {}
 K {}
 V {}
@@ -227,6 +228,6 @@ w=4.665e-6
 l=6.99e-6
 m=1
 spiceprefix=X}
-C {/home/designer/shared/IHP-AnalogAcademy/modules/module_3_8_bit_SAR_ADC/part_2_digital_comps/bootstrap_switch/schematic/inverter.sym} 960 -300 0 0 {name=x1}
-C {/home/designer/shared/IHP-AnalogAcademy/modules/module_3_8_bit_SAR_ADC/part_2_digital_comps/bootstrap_switch/schematic/inverter.sym} 1080 -720 0 1 {name=x2}
-C {/home/designer/shared/IHP-AnalogAcademy/modules/module_3_8_bit_SAR_ADC/part_2_digital_comps/bootstrap_switch/schematic/inverter.sym} 430 -250 3 0 {name=x3}
+C {inverter.sym} 960 -300 0 0 {name=x1}
+C {inverter.sym} 1080 -720 0 1 {name=x2}
+C {inverter.sym} 430 -250 3 0 {name=x3}

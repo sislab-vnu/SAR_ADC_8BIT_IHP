@@ -1,4 +1,5 @@
-v {xschem version=3.4.6 file_version=1.2}
+v {xschem version=3.4.5 file_version=1.2
+}
 G {}
 K {}
 V {}
@@ -231,24 +232,24 @@ C {lab_pin.sym} 2050 -470 0 0 {name=p81 sig_type=std_logic lab=gnd}
 C {lab_pin.sym} 2050 -280 0 0 {name=p82 sig_type=std_logic lab=gnd}
 C {lab_pin.sym} 2050 -190 0 0 {name=p83 sig_type=std_logic lab=gnd}
 C {lab_pin.sym} 2050 -140 0 0 {name=p84 sig_type=std_logic lab=gnd}
-C {/home/designer/shared/IHP-AnalogAcademy/modules/module_3_8_bit_SAR_ADC/part_2_digital_comps/T_gate/schematic/T_gate.sym} 440 -1100 0 0 {name=x1}
-C {/home/designer/shared/IHP-AnalogAcademy/modules/module_3_8_bit_SAR_ADC/part_2_digital_comps/T_gate/schematic/T_gate.sym} 440 -770 0 0 {name=x2}
-C {/home/designer/shared/IHP-AnalogAcademy/modules/module_3_8_bit_SAR_ADC/part_2_digital_comps/T_gate/schematic/T_gate.sym} 1040 -1110 0 0 {name=x3}
-C {/home/designer/shared/IHP-AnalogAcademy/modules/module_3_8_bit_SAR_ADC/part_2_digital_comps/T_gate/schematic/T_gate.sym} 1040 -780 0 0 {name=x4}
-C {/home/designer/shared/IHP-AnalogAcademy/modules/module_3_8_bit_SAR_ADC/part_2_digital_comps/T_gate/schematic/T_gate.sym} 1610 -1120 0 0 {name=x5}
-C {/home/designer/shared/IHP-AnalogAcademy/modules/module_3_8_bit_SAR_ADC/part_2_digital_comps/T_gate/schematic/T_gate.sym} 1610 -790 0 0 {name=x6}
-C {/home/designer/shared/IHP-AnalogAcademy/modules/module_3_8_bit_SAR_ADC/part_2_digital_comps/T_gate/schematic/T_gate.sym} 1040 -500 0 0 {name=x7}
-C {/home/designer/shared/IHP-AnalogAcademy/modules/module_3_8_bit_SAR_ADC/part_2_digital_comps/T_gate/schematic/T_gate.sym} 440 -490 0 0 {name=x8}
-C {/home/designer/shared/IHP-AnalogAcademy/modules/module_3_8_bit_SAR_ADC/part_2_digital_comps/T_gate/schematic/T_gate.sym} 440 -160 0 0 {name=x9}
-C {/home/designer/shared/IHP-AnalogAcademy/modules/module_3_8_bit_SAR_ADC/part_2_digital_comps/T_gate/schematic/T_gate.sym} 1040 -170 0 0 {name=x10}
-C {/home/designer/shared/IHP-AnalogAcademy/modules/module_3_8_bit_SAR_ADC/part_2_digital_comps/T_gate/schematic/T_gate.sym} 1620 -510 0 0 {name=x11}
-C {/home/designer/shared/IHP-AnalogAcademy/modules/module_3_8_bit_SAR_ADC/part_2_digital_comps/T_gate/schematic/T_gate.sym} 1620 -180 0 0 {name=x12}
-C {/home/designer/shared/IHP-AnalogAcademy/modules/module_3_8_bit_SAR_ADC/part_2_digital_comps/T_gate/schematic/T_gate.sym} 2190 -520 0 0 {name=x13}
-C {/home/designer/shared/IHP-AnalogAcademy/modules/module_3_8_bit_SAR_ADC/part_2_digital_comps/T_gate/schematic/T_gate.sym} 2190 -190 0 0 {name=x14}
-C {/home/designer/shared/IHP-AnalogAcademy/modules/module_3_8_bit_SAR_ADC/part_2_digital_comps/bootstrap_switch/schematic/inverter.sym} 280 -930 0 0 {name=x15}
-C {/home/designer/shared/IHP-AnalogAcademy/modules/module_3_8_bit_SAR_ADC/part_2_digital_comps/bootstrap_switch/schematic/inverter.sym} 880 -940 0 0 {name=x16}
-C {/home/designer/shared/IHP-AnalogAcademy/modules/module_3_8_bit_SAR_ADC/part_2_digital_comps/bootstrap_switch/schematic/inverter.sym} 1450 -950 0 0 {name=x17}
-C {/home/designer/shared/IHP-AnalogAcademy/modules/module_3_8_bit_SAR_ADC/part_2_digital_comps/bootstrap_switch/schematic/inverter.sym} 280 -320 0 0 {name=x18}
-C {/home/designer/shared/IHP-AnalogAcademy/modules/module_3_8_bit_SAR_ADC/part_2_digital_comps/bootstrap_switch/schematic/inverter.sym} 880 -330 0 0 {name=x19}
-C {/home/designer/shared/IHP-AnalogAcademy/modules/module_3_8_bit_SAR_ADC/part_2_digital_comps/bootstrap_switch/schematic/inverter.sym} 1460 -340 0 0 {name=x20}
-C {/home/designer/shared/IHP-AnalogAcademy/modules/module_3_8_bit_SAR_ADC/part_2_digital_comps/bootstrap_switch/schematic/inverter.sym} 2030 -350 0 0 {name=x21}
+C {T_gate.sym} 440 -1100 0 0 {name=x1}
+C {T_gate.sym} 440 -770 0 0 {name=x2}
+C {T_gate.sym} 1040 -1110 0 0 {name=x3}
+C {T_gate.sym} 1040 -780 0 0 {name=x4}
+C {T_gate.sym} 1610 -1120 0 0 {name=x5}
+C {T_gate.sym} 1610 -790 0 0 {name=x6}
+C {T_gate.sym} 1040 -500 0 0 {name=x7}
+C {T_gate.sym} 440 -490 0 0 {name=x8}
+C {T_gate.sym} 440 -160 0 0 {name=x9}
+C {T_gate.sym} 1040 -170 0 0 {name=x10}
+C {T_gate.sym} 1620 -510 0 0 {name=x11}
+C {T_gate.sym} 1620 -180 0 0 {name=x12}
+C {T_gate.sym} 2190 -520 0 0 {name=x13}
+C {T_gate.sym} 2190 -190 0 0 {name=x14}
+C {inverter.sym} 280 -930 0 0 {name=x15}
+C {inverter.sym} 880 -940 0 0 {name=x16}
+C {inverter.sym} 1450 -950 0 0 {name=x17}
+C {inverter.sym} 280 -320 0 0 {name=x18}
+C {inverter.sym} 880 -330 0 0 {name=x19}
+C {inverter.sym} 1460 -340 0 0 {name=x20}
+C {inverter.sym} 2030 -350 0 0 {name=x21}

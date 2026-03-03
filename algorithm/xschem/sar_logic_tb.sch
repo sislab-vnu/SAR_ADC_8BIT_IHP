@@ -1,4 +1,5 @@
-v {xschem version=3.4.6 file_version=1.2}
+v {xschem version=3.4.5 file_version=1.2
+}
 G {}
 K {}
 V {}
@@ -289,167 +290,167 @@ C {devices/lab_pin.sym} 1200 -510 2 0 {name=p35 sig_type=std_logic lab=D0}
 C {devices/gnd.sym} 340 -640 0 0 {name=l1 lab=GND}
 C {devices/lab_pin.sym} 340 -720 2 0 {name=p1 sig_type=std_logic lab=clk}
 C {devices/vsource.sym} 340 -680 0 0 {name=V4 value="dc 0 ac 0 PULSE(0 1.2 0 10p 10p 5u 10u)"}
-C {/home/designer/shared/IHP-AnalogAcademy/modules/module_3_8_bit_SAR_ADC/part_2_digital_comps/algorithm/xschem/sar_logic.sym} 810 -720 0 0 {name=adut
+C {sar_logic.sym} 810 -720 0 0 {name=adut
 dut=dut
 d_cosim_model= d_cosim
 model=./sar_logic.so}
-C {/home/designer/shared/IHP-AnalogAcademy/modules/module_3_8_bit_SAR_ADC/part_2_digital_comps/algorithm/xschem/adc_bridge1.sym} 640 -760 0 0 {name=A1
+C {adc_bridge1.sym} 640 -760 0 0 {name=A1
 adc=adc1
 adc_bridge_model=adc_bridge
 in_low=0.4
 in_high=0.6
 }
-C {/home/designer/shared/IHP-AnalogAcademy/modules/module_3_8_bit_SAR_ADC/part_2_digital_comps/algorithm/xschem/adc_bridge1.sym} 640 -740 0 0 {name=A2
+C {adc_bridge1.sym} 640 -740 0 0 {name=A2
 adc=adc1
 adc_bridge_model=adc_bridge
 in_low=0.4
 in_high=0.6
 }
-C {/home/designer/shared/IHP-AnalogAcademy/modules/module_3_8_bit_SAR_ADC/part_2_digital_comps/algorithm/xschem/adc_bridge1.sym} 640 -720 0 0 {name=A3
+C {adc_bridge1.sym} 640 -720 0 0 {name=A3
 adc=adc1
 adc_bridge_model=adc_bridge
 in_low=0.4
 in_high=0.6
 }
-C {/home/designer/shared/IHP-AnalogAcademy/modules/module_3_8_bit_SAR_ADC/part_2_digital_comps/algorithm/xschem/adc_bridge1.sym} 640 -700 0 0 {name=A4
+C {adc_bridge1.sym} 640 -700 0 0 {name=A4
 adc=adc1
 adc_bridge_model=adc_bridge
 in_low=0.4
 in_high=0.6
 }
-C {/home/designer/shared/IHP-AnalogAcademy/modules/module_3_8_bit_SAR_ADC/part_2_digital_comps/algorithm/xschem/adc_bridge1.sym} 640 -680 0 0 {name=A5
+C {adc_bridge1.sym} 640 -680 0 0 {name=A5
 adc=adc1
 adc_bridge_model=adc_bridge
 in_low=0.4
 in_high=0.6
 }
-C {/home/designer/shared/IHP-AnalogAcademy/modules/module_3_8_bit_SAR_ADC/part_2_digital_comps/algorithm/xschem/dac_bridge1.sym} 970 -930 0 0 {name=A6
+C {dac_bridge1.sym} 970 -930 0 0 {name=A6
 dac=dac1
 dac_bridge_model=dac_bridge
 out_low=0
 out_high=1.2
 }
-C {/home/designer/shared/IHP-AnalogAcademy/modules/module_3_8_bit_SAR_ADC/part_2_digital_comps/algorithm/xschem/dac_bridge1.sym} 970 -910 0 0 {name=A7
+C {dac_bridge1.sym} 970 -910 0 0 {name=A7
 dac=dac1
 dac_bridge_model=dac_bridge
 out_low=0
 out_high=1.2
 }
-C {/home/designer/shared/IHP-AnalogAcademy/modules/module_3_8_bit_SAR_ADC/part_2_digital_comps/algorithm/xschem/dac_bridge1.sym} 970 -890 0 0 {name=A8
+C {dac_bridge1.sym} 970 -890 0 0 {name=A8
 dac=dac1
 dac_bridge_model=dac_bridge
 out_low=0
 out_high=1.2
 }
-C {/home/designer/shared/IHP-AnalogAcademy/modules/module_3_8_bit_SAR_ADC/part_2_digital_comps/algorithm/xschem/dac_bridge1.sym} 970 -870 0 0 {name=A9
+C {dac_bridge1.sym} 970 -870 0 0 {name=A9
 dac=dac1
 dac_bridge_model=dac_bridge
 out_low=0
 out_high=1.2
 }
-C {/home/designer/shared/IHP-AnalogAcademy/modules/module_3_8_bit_SAR_ADC/part_2_digital_comps/algorithm/xschem/dac_bridge1.sym} 970 -850 0 0 {name=A10
+C {dac_bridge1.sym} 970 -850 0 0 {name=A10
 dac=dac1
 dac_bridge_model=dac_bridge
 out_low=0
 out_high=1.2
 }
-C {/home/designer/shared/IHP-AnalogAcademy/modules/module_3_8_bit_SAR_ADC/part_2_digital_comps/algorithm/xschem/dac_bridge1.sym} 970 -830 0 0 {name=A11
+C {dac_bridge1.sym} 970 -830 0 0 {name=A11
 dac=dac1
 dac_bridge_model=dac_bridge
 out_low=0
 out_high=1.2
 }
-C {/home/designer/shared/IHP-AnalogAcademy/modules/module_3_8_bit_SAR_ADC/part_2_digital_comps/algorithm/xschem/dac_bridge1.sym} 970 -810 0 0 {name=A12
+C {dac_bridge1.sym} 970 -810 0 0 {name=A12
 dac=dac1
 dac_bridge_model=dac_bridge
 out_low=0
 out_high=1.2
 }
-C {/home/designer/shared/IHP-AnalogAcademy/modules/module_3_8_bit_SAR_ADC/part_2_digital_comps/algorithm/xschem/dac_bridge1.sym} 970 -790 0 0 {name=A13
+C {dac_bridge1.sym} 970 -790 0 0 {name=A13
 dac=dac1
 dac_bridge_model=dac_bridge
 out_low=0
 out_high=1.2
 }
-C {/home/designer/shared/IHP-AnalogAcademy/modules/module_3_8_bit_SAR_ADC/part_2_digital_comps/algorithm/xschem/dac_bridge1.sym} 970 -770 0 0 {name=A14
+C {dac_bridge1.sym} 970 -770 0 0 {name=A14
 dac=dac1
 dac_bridge_model=dac_bridge
 out_low=0
 out_high=1.2
 }
-C {/home/designer/shared/IHP-AnalogAcademy/modules/module_3_8_bit_SAR_ADC/part_2_digital_comps/algorithm/xschem/dac_bridge1.sym} 970 -750 0 0 {name=A15
+C {dac_bridge1.sym} 970 -750 0 0 {name=A15
 dac=dac1
 dac_bridge_model=dac_bridge
 out_low=0
 out_high=1.2
 }
-C {/home/designer/shared/IHP-AnalogAcademy/modules/module_3_8_bit_SAR_ADC/part_2_digital_comps/algorithm/xschem/dac_bridge1.sym} 970 -730 0 0 {name=A16
+C {dac_bridge1.sym} 970 -730 0 0 {name=A16
 dac=dac1
 dac_bridge_model=dac_bridge
 out_low=0
 out_high=1.2
 }
-C {/home/designer/shared/IHP-AnalogAcademy/modules/module_3_8_bit_SAR_ADC/part_2_digital_comps/algorithm/xschem/dac_bridge1.sym} 970 -710 0 0 {name=A17
+C {dac_bridge1.sym} 970 -710 0 0 {name=A17
 dac=dac1
 dac_bridge_model=dac_bridge
 out_low=0
 out_high=1.2
 }
-C {/home/designer/shared/IHP-AnalogAcademy/modules/module_3_8_bit_SAR_ADC/part_2_digital_comps/algorithm/xschem/dac_bridge1.sym} 970 -690 0 0 {name=A18
+C {dac_bridge1.sym} 970 -690 0 0 {name=A18
 dac=dac1
 dac_bridge_model=dac_bridge
 out_low=0
 out_high=1.2
 }
-C {/home/designer/shared/IHP-AnalogAcademy/modules/module_3_8_bit_SAR_ADC/part_2_digital_comps/algorithm/xschem/dac_bridge1.sym} 970 -670 0 0 {name=A19
+C {dac_bridge1.sym} 970 -670 0 0 {name=A19
 dac=dac1
 dac_bridge_model=dac_bridge
 out_low=0
 out_high=1.2
 }
-C {/home/designer/shared/IHP-AnalogAcademy/modules/module_3_8_bit_SAR_ADC/part_2_digital_comps/algorithm/xschem/dac_bridge1.sym} 970 -650 0 0 {name=A20
+C {dac_bridge1.sym} 970 -650 0 0 {name=A20
 dac=dac1
 dac_bridge_model=dac_bridge
 out_low=0
 out_high=1.2
 }
-C {/home/designer/shared/IHP-AnalogAcademy/modules/module_3_8_bit_SAR_ADC/part_2_digital_comps/algorithm/xschem/dac_bridge1.sym} 970 -630 0 0 {name=A21
+C {dac_bridge1.sym} 970 -630 0 0 {name=A21
 dac=dac1
 dac_bridge_model=dac_bridge
 out_low=0
 out_high=1.2
 }
-C {/home/designer/shared/IHP-AnalogAcademy/modules/module_3_8_bit_SAR_ADC/part_2_digital_comps/algorithm/xschem/dac_bridge1.sym} 970 -610 0 0 {name=A22
+C {dac_bridge1.sym} 970 -610 0 0 {name=A22
 dac=dac1
 dac_bridge_model=dac_bridge
 out_low=0
 out_high=1.2
 }
-C {/home/designer/shared/IHP-AnalogAcademy/modules/module_3_8_bit_SAR_ADC/part_2_digital_comps/algorithm/xschem/dac_bridge1.sym} 970 -590 0 0 {name=A23
+C {dac_bridge1.sym} 970 -590 0 0 {name=A23
 dac=dac1
 dac_bridge_model=dac_bridge
 out_low=0
 out_high=1.2
 }
-C {/home/designer/shared/IHP-AnalogAcademy/modules/module_3_8_bit_SAR_ADC/part_2_digital_comps/algorithm/xschem/dac_bridge1.sym} 970 -570 0 0 {name=A24
+C {dac_bridge.sym} 970 -570 0 0 {name=A24
 dac=dac1
 dac_bridge_model=dac_bridge
 out_low=0
 out_high=1.2
 }
-C {/home/designer/shared/IHP-AnalogAcademy/modules/module_3_8_bit_SAR_ADC/part_2_digital_comps/algorithm/xschem/dac_bridge1.sym} 970 -550 0 0 {name=A25
+C {dac_bridge1.sym} 970 -550 0 0 {name=A25
 dac=dac1
 dac_bridge_model=dac_bridge
 out_low=0
 out_high=1.2
 }
-C {/home/designer/shared/IHP-AnalogAcademy/modules/module_3_8_bit_SAR_ADC/part_2_digital_comps/algorithm/xschem/dac_bridge1.sym} 970 -530 0 0 {name=A26
+C {dac_bridge1.sym} 970 -530 0 0 {name=A26
 dac=dac1
 dac_bridge_model=dac_bridge
 out_low=0
 out_high=1.2
 }
-C {/home/designer/shared/IHP-AnalogAcademy/modules/module_3_8_bit_SAR_ADC/part_2_digital_comps/algorithm/xschem/dac_bridge1.sym} 970 -510 0 0 {name=A27
+C {dac_bridge1.sym} 970 -510 0 0 {name=A27
 dac=dac1
 dac_bridge_model=dac_bridge
 out_low=0
