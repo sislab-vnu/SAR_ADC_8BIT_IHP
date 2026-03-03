@@ -244,9 +244,69 @@ write sar_logic.raw
 .endc
 "}
 C {devices/title.sym} 270 -300 0 0 {name=l5 author="Copyright 2024 IHP PDK Authors"}
+C {adc_bridge1.sym} 640 -700 0 0 {name=A4
+adc=adc1
+adc_bridge_model=adc_bridge
+in_low=0.2
+in_high=0.8
+}
 C {devices/launcher.sym} 887.5 -440 0 0 {name=h1
 descr="load waves Ctrl + left click" 
 tclcommand="xschem raw_read $netlist_dir/sar_logic.raw tran"
+}
+C {adc_bridge1.sym} 640 -680 0 0 {name=A3
+adc=adc1
+adc_bridge_model=adc_bridge
+in_low=0.2 
+in_high=0.8
+}
+C {dac_bridge1.sym} 970 -930 0 0 {name=A5
+dac=dac1
+dac_bridge_model=dac_bridge
+in_low=0.0
+in_high=1.2
+}
+C {dac_bridge1.sym} 970 -910 0 0 {name=A1
+dac=dac1
+dac_bridge_model=dac_bridge
+in_low=0.0
+in_high=1.2
+}
+C {adc_bridge1.sym} 640 -760 0 0 {name=A6
+adc=adc1
+adc_bridge_model=adc_bridge
+in_low=0.2
+in_high=0.8
+}
+C {adc_bridge1.sym} 640 -740 0 0 {name=A7
+adc=adc1
+adc_bridge_model=adc_bridge
+in_low=0.2
+in_high=0.8
+}
+C {adc_bridge1.sym} 640 -720 0 0 {name=A8
+adc=adc1
+adc_bridge_model=adc_bridge
+in_low=0.2
+in_high=0.8
+}
+C {dac_bridge1.sym} 970 -890 0 0 {name=A9
+dac=dac1
+dac_bridge_model=dac_bridge
+in_low=0.0
+in_high=1.2
+}
+C {dac_bridge1.sym} 970 -870 0 0 {name=A10
+dac=dac1
+dac_bridge_model=dac_bridge
+in_low=0.0
+in_high=1.2
+}
+C {dac_bridge1.sym} 970 -850 0 0 {name=A11
+dac=dac1
+dac_bridge_model=dac_bridge
+in_low=0.0
+in_high=1.2
 }
 C {devices/vsource.sym} 340 -920 0 0 {name=V3 value="dc 0 ac 0 PULSE(1.2 0 0 1n 1n 30u 1m)"}
 C {devices/gnd.sym} 340 -990 0 0 {name=l2 lab=GND}
@@ -269,190 +329,130 @@ C {devices/vsource.sym} 340 -810 0 0 {name=V5 value="dc 0 ac 0 PULSE(0 1.2 100u 
 C {devices/lab_pin.sym} 590 -740 2 1 {name=p3 sig_type=std_logic lab=Op}
 C {devices/lab_pin.sym} 590 -720 2 1 {name=p13 sig_type=std_logic lab=En}
 C {devices/lab_pin.sym} 590 -700 2 1 {name=p14 sig_type=std_logic lab=Om}
+C {dac_bridge1.sym} 970 -830 0 0 {name=A12
+dac=dac1
+dac_bridge_model=dac_bridge
+in_low=0.0
+in_high=1.2
+}
 C {devices/lab_pin.sym} 1200 -850 2 0 {name=p18 sig_type=std_logic lab=B1}
+C {dac_bridge1.sym} 970 -810 0 0 {name=A13
+dac=dac1
+dac_bridge_model=dac_bridge
+in_low=0.0
+in_high=1.2
+}
 C {devices/lab_pin.sym} 1200 -830 2 0 {name=p19 sig_type=std_logic lab=B0}
+C {dac_bridge1.sym} 970 -790 0 0 {name=A14
+dac=dac1
+dac_bridge_model=dac_bridge
+in_low=0.0
+in_high=1.2
+}
 C {devices/lab_pin.sym} 1200 -810 2 0 {name=p20 sig_type=std_logic lab=BN7}
+C {dac_bridge1.sym} 970 -770 0 0 {name=A15
+dac=dac1
+dac_bridge_model=dac_bridge
+in_low=0.0
+in_high=1.2
+}
 C {devices/lab_pin.sym} 1200 -790 2 0 {name=p21 sig_type=std_logic lab=BN6}
+C {dac_bridge1.sym} 970 -750 0 0 {name=A16
+dac=dac1
+dac_bridge_model=dac_bridge
+in_low=0.0
+in_high=1.2
+}
 C {devices/lab_pin.sym} 1200 -770 2 0 {name=p22 sig_type=std_logic lab=BN5}
+C {dac_bridge1.sym} 970 -730 0 0 {name=A17
+dac=dac1
+dac_bridge_model=dac_bridge
+in_low=0.0
+in_high=1.2
+}
 C {devices/lab_pin.sym} 1200 -750 2 0 {name=p23 sig_type=std_logic lab=BN4}
+C {dac_bridge1.sym} 970 -710 0 0 {name=A18
+dac=dac1
+dac_bridge_model=dac_bridge
+in_low=0.0
+in_high=1.2
+}
 C {devices/lab_pin.sym} 1200 -730 2 0 {name=p24 sig_type=std_logic lab=BN3}
+C {dac_bridge1.sym} 970 -690 0 0 {name=A19
+dac=dac1
+dac_bridge_model=dac_bridge
+in_low=0.0
+in_high=1.2
+}
 C {devices/lab_pin.sym} 1200 -710 2 0 {name=p25 sig_type=std_logic lab=BN2}
+C {dac_bridge1.sym} 970 -670 0 0 {name=A20
+dac=dac1
+dac_bridge_model=dac_bridge
+in_low=0.0
+in_high=1.2
+}
 C {devices/lab_pin.sym} 1200 -690 2 0 {name=p26 sig_type=std_logic lab=BN1}
+C {dac_bridge1.sym} 970 -650 0 0 {name=A21
+dac=dac1
+dac_bridge_model=dac_bridge
+in_low=0.0
+in_high=1.2
+}
 C {devices/lab_pin.sym} 1200 -670 2 0 {name=p27 sig_type=std_logic lab=BN0}
+C {dac_bridge1.sym} 970 -630 0 0 {name=A22
+dac=dac1
+dac_bridge_model=dac_bridge
+in_low=0.0
+in_high=1.2
+}
 C {devices/lab_pin.sym} 1200 -650 2 0 {name=p28 sig_type=std_logic lab=D7}
+C {dac_bridge1.sym} 970 -610 0 0 {name=A23
+dac=dac1
+dac_bridge_model=dac_bridge
+in_low=0.0
+in_high=1.2
+}
 C {devices/lab_pin.sym} 1200 -630 2 0 {name=p29 sig_type=std_logic lab=D6}
+C {dac_bridge1.sym} 970 -590 0 0 {name=A24
+dac=dac1
+dac_bridge_model=dac_bridge
+in_low=0.0
+in_high=1.2
+}
 C {devices/lab_pin.sym} 1200 -610 2 0 {name=p30 sig_type=std_logic lab=D5}
+C {dac_bridge1.sym} 970 -570 0 0 {name=A25
+dac=dac1
+dac_bridge_model=dac_bridge
+in_low=0.0
+in_high=1.2
+}
 C {devices/lab_pin.sym} 1200 -590 2 0 {name=p31 sig_type=std_logic lab=D4}
+C {dac_bridge1.sym} 970 -550 0 0 {name=A26
+dac=dac1
+dac_bridge_model=dac_bridge
+in_low=0.0
+in_high=1.2
+}
 C {devices/lab_pin.sym} 1200 -570 2 0 {name=p32 sig_type=std_logic lab=D3}
+C {dac_bridge1.sym} 970 -530 0 0 {name=A27
+dac=dac1
+dac_bridge_model=dac_bridge
+in_low=0.0
+in_high=1.2
+}
 C {devices/lab_pin.sym} 1200 -550 2 0 {name=p33 sig_type=std_logic lab=D2}
+C {dac_bridge1.sym} 970 -510 0 0 {name=A28
+dac=dac1
+dac_bridge_model=dac_bridge
+in_low=0.0
+in_high=1.2
+}
 C {devices/lab_pin.sym} 1200 -530 2 0 {name=p34 sig_type=std_logic lab=D1}
 C {devices/lab_pin.sym} 1200 -510 2 0 {name=p35 sig_type=std_logic lab=D0}
 C {devices/gnd.sym} 340 -640 0 0 {name=l1 lab=GND}
 C {devices/lab_pin.sym} 340 -720 2 0 {name=p1 sig_type=std_logic lab=clk}
 C {devices/vsource.sym} 340 -680 0 0 {name=V4 value="dc 0 ac 0 PULSE(0 1.2 0 10p 10p 5u 10u)"}
-C {sar_logic.sym} 810 -720 0 0 {name=adut
+C {sar_logic.sym} 810 -720 0 0 {name=adut1
 dut=dut
 d_cosim_model= d_cosim
 model=./sar_logic.so}
-C {adc_bridge1.sym} 640 -760 0 0 {name=A1
-adc=adc1
-adc_bridge_model=adc_bridge
-in_low=0.4
-in_high=0.6
-}
-C {adc_bridge1.sym} 640 -740 0 0 {name=A2
-adc=adc1
-adc_bridge_model=adc_bridge
-in_low=0.4
-in_high=0.6
-}
-C {adc_bridge1.sym} 640 -720 0 0 {name=A3
-adc=adc1
-adc_bridge_model=adc_bridge
-in_low=0.4
-in_high=0.6
-}
-C {adc_bridge1.sym} 640 -700 0 0 {name=A4
-adc=adc1
-adc_bridge_model=adc_bridge
-in_low=0.4
-in_high=0.6
-}
-C {adc_bridge1.sym} 640 -680 0 0 {name=A5
-adc=adc1
-adc_bridge_model=adc_bridge
-in_low=0.4
-in_high=0.6
-}
-C {dac_bridge1.sym} 970 -930 0 0 {name=A6
-dac=dac1
-dac_bridge_model=dac_bridge
-out_low=0
-out_high=1.2
-}
-C {dac_bridge1.sym} 970 -910 0 0 {name=A7
-dac=dac1
-dac_bridge_model=dac_bridge
-out_low=0
-out_high=1.2
-}
-C {dac_bridge1.sym} 970 -890 0 0 {name=A8
-dac=dac1
-dac_bridge_model=dac_bridge
-out_low=0
-out_high=1.2
-}
-C {dac_bridge1.sym} 970 -870 0 0 {name=A9
-dac=dac1
-dac_bridge_model=dac_bridge
-out_low=0
-out_high=1.2
-}
-C {dac_bridge1.sym} 970 -850 0 0 {name=A10
-dac=dac1
-dac_bridge_model=dac_bridge
-out_low=0
-out_high=1.2
-}
-C {dac_bridge1.sym} 970 -830 0 0 {name=A11
-dac=dac1
-dac_bridge_model=dac_bridge
-out_low=0
-out_high=1.2
-}
-C {dac_bridge1.sym} 970 -810 0 0 {name=A12
-dac=dac1
-dac_bridge_model=dac_bridge
-out_low=0
-out_high=1.2
-}
-C {dac_bridge1.sym} 970 -790 0 0 {name=A13
-dac=dac1
-dac_bridge_model=dac_bridge
-out_low=0
-out_high=1.2
-}
-C {dac_bridge1.sym} 970 -770 0 0 {name=A14
-dac=dac1
-dac_bridge_model=dac_bridge
-out_low=0
-out_high=1.2
-}
-C {dac_bridge1.sym} 970 -750 0 0 {name=A15
-dac=dac1
-dac_bridge_model=dac_bridge
-out_low=0
-out_high=1.2
-}
-C {dac_bridge1.sym} 970 -730 0 0 {name=A16
-dac=dac1
-dac_bridge_model=dac_bridge
-out_low=0
-out_high=1.2
-}
-C {dac_bridge1.sym} 970 -710 0 0 {name=A17
-dac=dac1
-dac_bridge_model=dac_bridge
-out_low=0
-out_high=1.2
-}
-C {dac_bridge1.sym} 970 -690 0 0 {name=A18
-dac=dac1
-dac_bridge_model=dac_bridge
-out_low=0
-out_high=1.2
-}
-C {dac_bridge1.sym} 970 -670 0 0 {name=A19
-dac=dac1
-dac_bridge_model=dac_bridge
-out_low=0
-out_high=1.2
-}
-C {dac_bridge1.sym} 970 -650 0 0 {name=A20
-dac=dac1
-dac_bridge_model=dac_bridge
-out_low=0
-out_high=1.2
-}
-C {dac_bridge1.sym} 970 -630 0 0 {name=A21
-dac=dac1
-dac_bridge_model=dac_bridge
-out_low=0
-out_high=1.2
-}
-C {dac_bridge1.sym} 970 -610 0 0 {name=A22
-dac=dac1
-dac_bridge_model=dac_bridge
-out_low=0
-out_high=1.2
-}
-C {dac_bridge1.sym} 970 -590 0 0 {name=A23
-dac=dac1
-dac_bridge_model=dac_bridge
-out_low=0
-out_high=1.2
-}
-C {dac_bridge.sym} 970 -570 0 0 {name=A24
-dac=dac1
-dac_bridge_model=dac_bridge
-out_low=0
-out_high=1.2
-}
-C {dac_bridge1.sym} 970 -550 0 0 {name=A25
-dac=dac1
-dac_bridge_model=dac_bridge
-out_low=0
-out_high=1.2
-}
-C {dac_bridge1.sym} 970 -530 0 0 {name=A26
-dac=dac1
-dac_bridge_model=dac_bridge
-out_low=0
-out_high=1.2
-}
-C {dac_bridge1.sym} 970 -510 0 0 {name=A27
-dac=dac1
-dac_bridge_model=dac_bridge
-out_low=0
-out_high=1.2
-}
