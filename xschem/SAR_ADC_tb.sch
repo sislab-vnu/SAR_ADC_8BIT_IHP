@@ -1,4 +1,5 @@
-v {xschem version=3.4.6 file_version=1.2}
+v {xschem version=3.4.5 file_version=1.2
+}
 G {}
 K {}
 V {}
@@ -272,12 +273,6 @@ C {iopin.sym} 1005 -510 0 0 {name=p30 lab=D3}
 C {iopin.sym} 1005 -490 0 0 {name=p31 lab=D2}
 C {iopin.sym} 1005 -470 0 0 {name=p32 lab=D1}
 C {iopin.sym} 1005 -450 0 0 {name=p33 lab=D0}
-C {devices/code_shown.sym} 365 -1845 0 0 {name=MODEL only_toplevel=true
-format="tcleval( @value )"
-value=".lib cornerMOSlv.lib mos_tt
-.lib $::SG13G2_MODELS/cornerCAP.lib cap_typ
-.model dut d_cosim simulation="/home/tien/IHP-AnalogAcademy/IHP-AnalogAcademy/modules/module_3_8_bit_SAR_ADC/part_2_digital_comps/algorithm/verilog/sar_logic.vvp"
-"}
 C {devices/vsource.sym} 260 -1190 0 1 {name=V7 value=0.6}
 C {devices/gnd.sym} 260 -1150 0 1 {name=l13 lab=GND
 value=1.2}
@@ -314,177 +309,182 @@ value=20f
 footprint=1206
 device="ceramic capacitor"}
 C {devices/lab_pin.sym} 1830 -1460 2 0 {name=p35 sig_type=std_logic lab=clk_algo}
-C {/home/designer/shared/IHP-AnalogAcademy/modules/module_3_8_bit_SAR_ADC/part_5_analog_layout/switch_array/schematic/switch_array.sym} 1200 -930 0 0 {name=x7}
-C {/home/designer/shared/IHP-AnalogAcademy/modules/module_3_8_bit_SAR_ADC/part_5_analog_layout/switch_array/schematic/switch_array.sym} 1200 -1410 2 1 {name=x4}
-C {/home/designer/shared/IHP-AnalogAcademy/modules/module_3_8_bit_SAR_ADC/part_3_array_components/C-DAC/C-DAC.sym} 1190 -1110 0 0 {name=x5}
-C {/home/designer/shared/IHP-AnalogAcademy/modules/module_3_8_bit_SAR_ADC/part_3_array_components/C-DAC/C-DAC.sym} 1190 -1230 2 1 {name=x2}
-C {/home/designer/shared/IHP-AnalogAcademy/modules/module_3_8_bit_SAR_ADC/part_2_digital_comps/nand_gate/schematic/nand_gate.sym} 1730 -1450 0 0 {name=x8}
-C {/home/designer/shared/IHP-AnalogAcademy/modules/module_3_8_bit_SAR_ADC/part_2_digital_comps/algorithm/xschem/sar_logic.sym} 480 -660 0 0 {name=adut
+C {switch_array.sym} 1200 -930 0 0 {name=x7}
+C {switch_array.sym} 1200 -1410 2 1 {name=x4}
+C {C-DAC.sym} 1190 -1230 2 1 {name=x2}
+C {nand_gate.sym} 1730 -1450 0 0 {name=x8}
+C {adc_bridge1.sym} 310 -700 0 0 {name=A1
+adc=adc1
+adc_bridge_model=adc_bridge
+in_low=0.2
+in_high=0.8
+}
+C {adc_bridge1.sym} 310 -680 0 0 {name=A2
+adc=adc1
+adc_bridge_model=adc_bridge
+in_low=0.2
+in_high=0.8
+}
+C {adc_bridge1.sym} 310 -660 0 0 {name=A3
+adc=adc1
+adc_bridge_model=adc_bridge
+in_low=0.2
+in_high=0.8
+}
+C {adc_bridge1.sym} 310 -640 0 0 {name=A4
+adc=adc1
+adc_bridge_model=adc_bridge
+in_low=0.2
+in_high=0.8
+}
+C {adc_bridge1.sym} 310 -620 0 0 {name=A5
+adc=adc1
+adc_bridge_model=adc_bridge
+in_low=0.2
+in_high=0.8
+}
+C {dac_bridge1.sym} 650 -870 0 0 {name=A6
+dac=dac1
+dac_bridge_model=dac_bridge
+out_low=0.2
+out_high=0.8
+}
+C {dac_bridge1.sym} 650 -850 0 0 {name=A7
+dac=dac1
+dac_bridge_model=dac_bridge
+out_low=0.2
+out_high=0.8
+}
+C {dac_bridge1.sym} 650 -830 0 0 {name=A8
+dac=dac1
+dac_bridge_model=dac_bridge
+out_low=0.2
+out_high=0.8
+}
+C {dac_bridge1.sym} 650 -810 0 0 {name=A9
+dac=dac1
+dac_bridge_model=dac_bridge
+out_low=0.2
+out_high=0.8
+}
+C {dac_bridge1.sym} 650 -790 0 0 {name=A10
+dac=dac1
+dac_bridge_model=dac_bridge
+out_low=0.2
+out_high=0.8
+}
+C {dac_bridge1.sym} 650 -770 0 0 {name=A11
+dac=dac1
+dac_bridge_model=dac_bridge
+out_low=0.2
+out_high=0.8
+}
+C {dac_bridge1.sym} 650 -750 0 0 {name=A12
+dac=dac1
+dac_bridge_model=dac_bridge
+out_low=0.2
+out_high=0.8
+}
+C {dac_bridge1.sym} 650 -730 0 0 {name=A13
+dac=dac1
+dac_bridge_model=dac_bridge
+out_low=0.2
+out_high=0.8
+}
+C {dac_bridge1.sym} 650 -710 0 0 {name=A14
+dac=dac1
+dac_bridge_model=dac_bridge
+out_low=0.2
+out_high=0.8
+}
+C {dac_bridge1.sym} 650 -690 0 0 {name=A15
+dac=dac1
+dac_bridge_model=dac_bridge
+out_low=0.2
+out_high=0.8
+}
+C {dac_bridge1.sym} 650 -670 0 0 {name=A16
+dac=dac1
+dac_bridge_model=dac_bridge
+out_low=0.2
+out_high=0.8
+}
+C {dac_bridge1.sym} 650 -650 0 0 {name=A17
+dac=dac1
+dac_bridge_model=dac_bridge
+out_low=0.2
+out_high=0.8
+}
+C {dac_bridge1.sym} 650 -630 0 0 {name=A18
+dac=dac1
+dac_bridge_model=dac_bridge
+out_low=0.2
+out_high=0.8
+}
+C {dac_bridge1.sym} 650 -610 0 0 {name=A19
+dac=dac1
+dac_bridge_model=dac_bridge
+out_low=0.2
+out_high=0.8
+}
+C {dac_bridge1.sym} 650 -590 0 0 {name=A20
+dac=dac1
+dac_bridge_model=dac_bridge
+out_low=0
+out_high=1.2
+}
+C {dac_bridge1.sym} 650 -570 0 0 {name=A21
+dac=dac1
+dac_bridge_model=dac_bridge
+out_low=0
+out_high=1.2
+}
+C {dac_bridge1.sym} 650 -550 0 0 {name=A22
+dac=dac1
+dac_bridge_model=dac_bridge
+out_low=0
+out_high=1.2
+}
+C {dac_bridge1.sym} 650 -530 0 0 {name=A23
+dac=dac1
+dac_bridge_model=dac_bridge
+out_low=0
+out_high=1.2
+}
+C {dac_bridge1.sym} 650 -510 0 0 {name=A24
+dac=dac1
+dac_bridge_model=dac_bridge
+out_low=0
+out_high=1.2
+}
+C {dac_bridge1.sym} 650 -490 0 0 {name=A25
+dac=dac1
+dac_bridge_model=dac_bridge
+out_low=0
+out_high=1.2
+}
+C {dac_bridge1.sym} 650 -470 0 0 {name=A26
+dac=dac1
+dac_bridge_model=dac_bridge
+out_low=0
+out_high=1.2
+}
+C {dac_bridge1.sym} 650 -450 0 0 {name=A27
+dac=dac1
+dac_bridge_model=dac_bridge
+out_low=0
+out_high=1.2
+}
+C {bootstrap_switch.sym} 820 -1230 0 0 {name=x1}
+C {bootstrap_switch.sym} 820 -1110 0 0 {name=x6}
+C {dynamic_comparator.sym} 1770 -1170 0 0 {name=x3}
+C {C-DAC.sym} 1190 -1110 0 0 {name=x9}
+C {devices/code_shown.sym} 195 -1835 0 0 {name=MODEL1 only_toplevel=true
+format="tcleval( @value )"
+value=".lib cornerMOSlv.lib mos_tt
+.lib $::SG13G2_MODELS/cornerCAP.lib cap_typ
+"}
+C {sar_logic.sym} 480 -660 0 0 {name=adut
 dut=dut
 d_cosim_model= d_cosim
 model=./sar_logic.so}
-C {/home/designer/shared/IHP-AnalogAcademy/modules/module_3_8_bit_SAR_ADC/part_2_digital_comps/algorithm/xschem/adc_bridge1.sym} 310 -700 0 0 {name=A1
-adc=adc1
-adc_bridge_model=adc_bridge
-in_low=0.4
-in_high=0.6
-}
-C {/home/designer/shared/IHP-AnalogAcademy/modules/module_3_8_bit_SAR_ADC/part_2_digital_comps/algorithm/xschem/adc_bridge1.sym} 310 -680 0 0 {name=A2
-adc=adc1
-adc_bridge_model=adc_bridge
-in_low=0.4
-in_high=0.6
-}
-C {/home/designer/shared/IHP-AnalogAcademy/modules/module_3_8_bit_SAR_ADC/part_2_digital_comps/algorithm/xschem/adc_bridge1.sym} 310 -660 0 0 {name=A3
-adc=adc1
-adc_bridge_model=adc_bridge
-in_low=0.4
-in_high=0.6
-}
-C {/home/designer/shared/IHP-AnalogAcademy/modules/module_3_8_bit_SAR_ADC/part_2_digital_comps/algorithm/xschem/adc_bridge1.sym} 310 -640 0 0 {name=A4
-adc=adc1
-adc_bridge_model=adc_bridge
-in_low=0.4
-in_high=0.6
-}
-C {/home/designer/shared/IHP-AnalogAcademy/modules/module_3_8_bit_SAR_ADC/part_2_digital_comps/algorithm/xschem/adc_bridge1.sym} 310 -620 0 0 {name=A5
-adc=adc1
-adc_bridge_model=adc_bridge
-in_low=0.4
-in_high=0.6
-}
-C {/home/designer/shared/IHP-AnalogAcademy/modules/module_3_8_bit_SAR_ADC/part_2_digital_comps/algorithm/xschem/dac_bridge1.sym} 650 -870 0 0 {name=A6
-dac=dac1
-dac_bridge_model=dac_bridge
-out_low=0
-out_high=1.2
-}
-C {/home/designer/shared/IHP-AnalogAcademy/modules/module_3_8_bit_SAR_ADC/part_2_digital_comps/algorithm/xschem/dac_bridge1.sym} 650 -850 0 0 {name=A7
-dac=dac1
-dac_bridge_model=dac_bridge
-out_low=0
-out_high=1.2
-}
-C {/home/designer/shared/IHP-AnalogAcademy/modules/module_3_8_bit_SAR_ADC/part_2_digital_comps/algorithm/xschem/dac_bridge1.sym} 650 -830 0 0 {name=A8
-dac=dac1
-dac_bridge_model=dac_bridge
-out_low=0
-out_high=1.2
-}
-C {/home/designer/shared/IHP-AnalogAcademy/modules/module_3_8_bit_SAR_ADC/part_2_digital_comps/algorithm/xschem/dac_bridge1.sym} 650 -810 0 0 {name=A9
-dac=dac1
-dac_bridge_model=dac_bridge
-out_low=0
-out_high=1.2
-}
-C {/home/designer/shared/IHP-AnalogAcademy/modules/module_3_8_bit_SAR_ADC/part_2_digital_comps/algorithm/xschem/dac_bridge1.sym} 650 -790 0 0 {name=A10
-dac=dac1
-dac_bridge_model=dac_bridge
-out_low=0
-out_high=1.2
-}
-C {/home/designer/shared/IHP-AnalogAcademy/modules/module_3_8_bit_SAR_ADC/part_2_digital_comps/algorithm/xschem/dac_bridge1.sym} 650 -770 0 0 {name=A11
-dac=dac1
-dac_bridge_model=dac_bridge
-out_low=0
-out_high=1.2
-}
-C {/home/designer/shared/IHP-AnalogAcademy/modules/module_3_8_bit_SAR_ADC/part_2_digital_comps/algorithm/xschem/dac_bridge1.sym} 650 -750 0 0 {name=A12
-dac=dac1
-dac_bridge_model=dac_bridge
-out_low=0
-out_high=1.2
-}
-C {/home/designer/shared/IHP-AnalogAcademy/modules/module_3_8_bit_SAR_ADC/part_2_digital_comps/algorithm/xschem/dac_bridge1.sym} 650 -730 0 0 {name=A13
-dac=dac1
-dac_bridge_model=dac_bridge
-out_low=0
-out_high=1.2
-}
-C {/home/designer/shared/IHP-AnalogAcademy/modules/module_3_8_bit_SAR_ADC/part_2_digital_comps/algorithm/xschem/dac_bridge1.sym} 650 -710 0 0 {name=A14
-dac=dac1
-dac_bridge_model=dac_bridge
-out_low=0
-out_high=1.2
-}
-C {/home/designer/shared/IHP-AnalogAcademy/modules/module_3_8_bit_SAR_ADC/part_2_digital_comps/algorithm/xschem/dac_bridge1.sym} 650 -690 0 0 {name=A15
-dac=dac1
-dac_bridge_model=dac_bridge
-out_low=0
-out_high=1.2
-}
-C {/home/designer/shared/IHP-AnalogAcademy/modules/module_3_8_bit_SAR_ADC/part_2_digital_comps/algorithm/xschem/dac_bridge1.sym} 650 -670 0 0 {name=A16
-dac=dac1
-dac_bridge_model=dac_bridge
-out_low=0
-out_high=1.2
-}
-C {/home/designer/shared/IHP-AnalogAcademy/modules/module_3_8_bit_SAR_ADC/part_2_digital_comps/algorithm/xschem/dac_bridge1.sym} 650 -650 0 0 {name=A17
-dac=dac1
-dac_bridge_model=dac_bridge
-out_low=0
-out_high=1.2
-}
-C {/home/designer/shared/IHP-AnalogAcademy/modules/module_3_8_bit_SAR_ADC/part_2_digital_comps/algorithm/xschem/dac_bridge1.sym} 650 -630 0 0 {name=A18
-dac=dac1
-dac_bridge_model=dac_bridge
-out_low=0
-out_high=1.2
-}
-C {/home/designer/shared/IHP-AnalogAcademy/modules/module_3_8_bit_SAR_ADC/part_2_digital_comps/algorithm/xschem/dac_bridge1.sym} 650 -610 0 0 {name=A19
-dac=dac1
-dac_bridge_model=dac_bridge
-out_low=0
-out_high=1.2
-}
-C {/home/designer/shared/IHP-AnalogAcademy/modules/module_3_8_bit_SAR_ADC/part_2_digital_comps/algorithm/xschem/dac_bridge1.sym} 650 -590 0 0 {name=A20
-dac=dac1
-dac_bridge_model=dac_bridge
-out_low=0
-out_high=1.2
-}
-C {/home/designer/shared/IHP-AnalogAcademy/modules/module_3_8_bit_SAR_ADC/part_2_digital_comps/algorithm/xschem/dac_bridge1.sym} 650 -570 0 0 {name=A21
-dac=dac1
-dac_bridge_model=dac_bridge
-out_low=0
-out_high=1.2
-}
-C {/home/designer/shared/IHP-AnalogAcademy/modules/module_3_8_bit_SAR_ADC/part_2_digital_comps/algorithm/xschem/dac_bridge1.sym} 650 -550 0 0 {name=A22
-dac=dac1
-dac_bridge_model=dac_bridge
-out_low=0
-out_high=1.2
-}
-C {/home/designer/shared/IHP-AnalogAcademy/modules/module_3_8_bit_SAR_ADC/part_2_digital_comps/algorithm/xschem/dac_bridge1.sym} 650 -530 0 0 {name=A23
-dac=dac1
-dac_bridge_model=dac_bridge
-out_low=0
-out_high=1.2
-}
-C {/home/designer/shared/IHP-AnalogAcademy/modules/module_3_8_bit_SAR_ADC/part_2_digital_comps/algorithm/xschem/dac_bridge1.sym} 650 -510 0 0 {name=A24
-dac=dac1
-dac_bridge_model=dac_bridge
-out_low=0
-out_high=1.2
-}
-C {/home/designer/shared/IHP-AnalogAcademy/modules/module_3_8_bit_SAR_ADC/part_2_digital_comps/algorithm/xschem/dac_bridge1.sym} 650 -490 0 0 {name=A25
-dac=dac1
-dac_bridge_model=dac_bridge
-out_low=0
-out_high=1.2
-}
-C {/home/designer/shared/IHP-AnalogAcademy/modules/module_3_8_bit_SAR_ADC/part_2_digital_comps/algorithm/xschem/dac_bridge1.sym} 650 -470 0 0 {name=A26
-dac=dac1
-dac_bridge_model=dac_bridge
-out_low=0
-out_high=1.2
-}
-C {/home/designer/shared/IHP-AnalogAcademy/modules/module_3_8_bit_SAR_ADC/part_2_digital_comps/algorithm/xschem/dac_bridge1.sym} 650 -450 0 0 {name=A27
-dac=dac1
-dac_bridge_model=dac_bridge
-out_low=0
-out_high=1.2
-}
-C {/home/designer/shared/IHP-AnalogAcademy/modules/module_3_8_bit_SAR_ADC/part_2_digital_comps/bootstrap_switch/schematic/bootstrap_switch.sym} 820 -1230 0 0 {name=x1}
-C {/home/designer/shared/IHP-AnalogAcademy/modules/module_3_8_bit_SAR_ADC/part_2_digital_comps/bootstrap_switch/schematic/bootstrap_switch.sym} 820 -1110 0 0 {name=x6}
-C {/home/designer/shared/IHP-AnalogAcademy/modules/module_3_8_bit_SAR_ADC/part_1_comparator/schematic/dynamic_comparator.sym} 1770 -1170 0 0 {name=x3}
